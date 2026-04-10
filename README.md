@@ -29,9 +29,11 @@ It demonstrates how real startup landing pages are designed with usability, resp
 * ⚙️ JavaScript (DOM Manipulation)
 
 ---
+
 ## 🌐 Live Demo
 
 https://smartgen-ai.netlify.app/
+
 ---
 
 ## 🧩 Core Sections
