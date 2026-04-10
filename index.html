@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartGen AI</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">SmartGen AI</h1>
+
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#usecases">Use Cases</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <button id="themeBtn" onclick="toggleTheme()">🌙</button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Generate Smart Content with <span>AI</span></h2>
+    <p>Create captions, resumes, and ideas instantly.</p>
+
+    <div class="buttons">
+      <button class="btn-primary">Get Started</button>
+      <button class="btn-outline">Live Demo</button>
+    </div>
+  </section>
+
+  <!-- AI Demo -->
+  <section class="section center">
+    <h3>Try AI Demo</h3>
+
+    <input id="userInput" placeholder="e.g. Write Instagram caption..." />
+    <button onclick="generateAI()" class="btn-primary">Generate</button>
+
+    <p id="output"></p>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <h3 class="title">Features</h3>
+
+    <div class="grid">
+      <div class="card">⚡ Fast AI</div>
+      <div class="card">🎯 Easy UI</div>
+      <div class="card">🔒 Secure</div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section id="usecases" class="section center">
+    <h3 class="title">Use Cases</h3>
+
+    <div class="grid">
+      <div class="card">📱 Social Media Content</div>
+      <div class="card">📄 Resume Writing</div>
+      <div class="card">💡 Business Ideas</div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section center">
+    <h3 class="title">Pricing</h3>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Basic</h4>
+        <p>₹0</p>
+      </div>
+
+      <div class="card highlight">
+        <h4>Pro</h4>
+        <p>₹499</p>
+      </div>
+
+      <div class="card">
+        <h4>Premium</h4>
+        <p>₹999</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section center">
+    <h3 class="title">FAQ</h3>
+
+    <div class="faq">
+      <h4 onclick="toggleFAQ(this)">What is SmartGen AI?</h4>
+      <p>It is an AI-powered content generator.</p>
+    </div>
+
+    <div class="faq">
+      <h4 onclick="toggleFAQ(this)">Is it free?</h4>
+      <p>Yes, basic version is free.</p>
+    </div>
+  </section>
+
+  <footer>© 2026 SmartGen AI</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
